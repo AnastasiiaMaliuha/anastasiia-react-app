@@ -1,0 +1,35 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Weather {
+  border: 1px solid #dadde1;
+  padding: 25px;
+  margin: 30px auto;
+  border-radius: 4px;
+  color: rgb(108, 107, 107);
+  background-color: #cae6e63f;
+}
+.Weather ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.Weather h1 {
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.Weather .degrees {
+  color: #202124;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+.Weather .temperature {
+  font-size: xx-large;
+}
