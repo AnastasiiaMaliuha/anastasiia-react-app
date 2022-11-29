@@ -8,8 +8,7 @@ export default function App() {
       <div className="container">
         <h1>Weather App</h1>
 
-        <Weather deafaultCity="New York" />
-
+        <Weather defaultCity="New York" />
         <footer>
           {" "}
           Project created by Anastasiia Maliuha, view at
