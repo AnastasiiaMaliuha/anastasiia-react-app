@@ -9,12 +9,17 @@ body {
   margin: 30px auto;
   border-radius: 4px;
   color: rgb(167, 166, 166);
-  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
 }
 .Weather ul {
   margin: 0;
   list-style: none;
   padding: 0;
+  margin-bottom: 10px;
 }
 .Weather h1 {
   padding: 0px;
@@ -34,5 +39,5 @@ body {
   font-size: xx-large;
 }
 .Weather canvas {
-  margin-top: 10px auto;
+  margin-top: 15px auto;
 }
